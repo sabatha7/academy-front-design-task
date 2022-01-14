@@ -1,0 +1,17 @@
+{% extends "inherit.html" %}
+{% block content %}
+<div class="col-6 order-sm-1">
+<h1>Contact Details</h1>
+<p>Tel: 013 262 2216 | 5343</p>
+<p>Fax: 086 540 9115</p>
+<p>Pre School: 013 2625710</p>
+<a href="mailto:#">Click here to send us an email</a>
+<h2>Postal Address:</h2>
+<p>Private Bag X 8672, Groblersdal, 0470</p>
+<h2>Physical Address:</h2>
+<p>1 Syringa Street, Groblersdal, 0470</p>
+</div>
+<div class="col-6 order-sm-1">
+<a href="{{url_for('maps')}}" role="button" class="btn btn-primary">Google Map </br>find us with Google Map</a>
+</div>
+{% endblock %}
